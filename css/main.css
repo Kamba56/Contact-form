@@ -338,7 +338,8 @@ li {
   width: 100%;
 }
 
-.form-section form input, textarea {
+.form-section form input,
+textarea {
   width: 100%;
   margin-bottom: 30px;
 }
