@@ -342,6 +342,15 @@ li {
 textarea {
   width: 100%;
   margin-bottom: 30px;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+textarea {
+  border: none;
+  background: #fbf8f7;
+  height: 100px;
 }
 
 form button {
@@ -350,4 +359,18 @@ form button {
   color: #fff;
   background: #ff6b00;
   border: none;
+  margin-bottom: 50px;
+}
+
+form button:hover {
+  background: #fff5e1;
+  color: #ff6b00;
+  border: 1px solid #ff6b00;
+}
+
+.form-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
 }
